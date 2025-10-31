@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import router from '@/router'
+
 const cities = [
   // La Paz
   {
@@ -49,7 +51,9 @@ const cities = [
     image: 'https://i.pinimg.com/1200x/10/50/13/1050134123f09edee11da9d7f46b2481.jpg',
   },
 ]
-// 0 - 1,2,3,4 - 5- 6,7,8,9 -10- z11,12,13,14 - 15 -
+const goToCity = (city: string, department: string) => {
+  router.push({ name: 'departments', params: { city, department } })
+}
 </script>
 
 <template>
@@ -58,6 +62,7 @@ const cities = [
       <div
         v-for="(city, index) in cities"
         :key="index"
+        @click="goToCity(city.city, city.departament)"
         :class="[
           'rounded-xl w-[370px] relative overflow-hidden ',
           index % 5 === 0 ? '  row-span-2  ' : ' h-[250px] ',

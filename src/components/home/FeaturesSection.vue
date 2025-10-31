@@ -11,19 +11,19 @@ import CardFeaturesSection from './CardFeaturesSection.vue'
       <CardFeaturesSection
         image="as"
         text="Con más de 1 millón de viviendas en venta disponibles en el sitio web, InAdvance puede ayudarte a encontrar la casa que querrás llamar hogar."
-        title="Compra una casa"
+        title="Comprar una casa"
         button-title="Encuentra una casa"
       />
       <CardFeaturesSection
         image="as"
         text="Con más de 1 millón de viviendas en venta disponibles en el sitio web, InAdvance puede ayudarte a encontrar la casa que querrás llamar hogar."
-        title="Renta una casa "
+        title="Rentar una casa "
         button-title="Encuentra una renta"
       />
       <CardFeaturesSection
         image="as"
         text="Con más de 1 millón de viviendas en venta disponibles en el sitio web, InAdvance puede ayudarte a encontrar la casa que querrás llamar hogar."
-        title="Mira las oferas "
+        title="Asesoramiento"
         button-title="Lee mas "
       />
     </div>
