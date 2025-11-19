@@ -69,7 +69,7 @@ watch(
   () => route.fullPath,
   () => {
     route.fullPath != '/' ? (currentRoute.value = false) : (currentRoute.value = true)
-    console.log('valor es:', currentRoute.value)
+    // console.log('valor es:', currentRoute.value)
   },
   { immediate: true },
 )

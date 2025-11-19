@@ -24,6 +24,45 @@ const propiedades = [
     images: 'https://i.pinimg.com/1200x/f8/53/00/f85300b2fe5036ac428ea3ad7ab75c73.jpg',
   },
   // ... el resto de propiedades
+  {
+    precio: 85000,
+    dormitorios: 2,
+    banos: 1,
+    ubicacion: 'Colima, La Paz',
+    images: 'https://i.pinimg.com/1200x/f8/53/00/f85300b2fe5036ac428ea3ad7ab75c73.jpg',
+  },
+
+  {
+    precio: 1125000,
+    dormitorios: 14,
+    banos: 5,
+    ubicacion: 'Calacoto, La Paz',
+    images: 'https://i.pinimg.com/1200x/f8/53/00/f85300b2fe5036ac428ea3ad7ab75c73.jpg',
+  },
+
+  {
+    precio: 5000,
+    dormitorios: 2,
+    banos: 1,
+    ubicacion: 'Obrajes, La Paz',
+    images: 'https://i.pinimg.com/1200x/f8/53/00/f85300b2fe5036ac428ea3ad7ab75c73.jpg',
+  },
+
+  {
+    precio: 125500,
+    dormitorios: 6,
+    banos: 4,
+    ubicacion: 'San Miguel, La Paz',
+    images: 'https://i.pinimg.com/1200x/f8/53/00/f85300b2fe5036ac428ea3ad7ab75c73.jpg',
+  },
+
+  {
+    precio: 99000,
+    dormitorios: 7,
+    banos: 5,
+    ubicacion: 'Achumani, La Paz',
+    images: 'https://i.pinimg.com/1200x/f8/53/00/f85300b2fe5036ac428ea3ad7ab75c73.jpg',
+  },
 ]
 
 const useModal = useModalStore()
