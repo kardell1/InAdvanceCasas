@@ -12,7 +12,10 @@ const handleClick = () => {
 </script>
 
 <template>
-  <button @click="handleClick" class="px-4 py-2 text-white font-semibold rounded hover:bg-blue-600">
+  <button
+    @click="handleClick"
+    class="px-4 py-2 text-white font-semibold rounded hover:bg-blue-600 cursor-pointer"
+  >
     {{ title }}
   </button>
 </template>

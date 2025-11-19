@@ -12,7 +12,7 @@ const handleCloseModal = () => {
   <div
     class="fade-in-once relative p-5 bg-white shadow-2xs w-[40%] rounded-sm max-h-[80%] overflow-y-scroll"
   >
-    <h2 class="pb-5 text-center font-bold">Contacto esta propiedad</h2>
+    <h2 class="pb-5 text-center font-bold">Registrate o Inicia Sesion</h2>
     <button
       @click="handleCloseModal"
       class="hover:bg-slate-300 rounded-full absolute top-0 right-0 px-2 py-1 m-5"
@@ -20,27 +20,12 @@ const handleCloseModal = () => {
       X
     </button>
     <div class="flex flex-col gap-5">
-      <InputsModal placeholder="Nombre" />
       <InputsModal placeholder="Correo electronico" />
-      <InputsModal placeholder="Celular" />
       <div>
-        <textarea
-          name=""
-          id=""
-          class="w-full focus-within:outline-blue-600 focus-within:outline-4 transition-all duration-100 ease-in-out rounded-sm border border-slate-300"
-        >
- Mi text area  </textarea
-        >
-      </div>
-
-      <div>
-        <button class="bg-red-600 w-full rounded-xl text-white font-semibold py-3">
-          Revisa su disponibilidad
-        </button>
+        <button class="bg-blue-600 w-full rounded-xl text-white font-semibold py-3">Enviar</button>
       </div>
       <p class="text-[0.80rem] font-light text-slate-500">
-        Estoy interesado en esta propiedad en alquiler y me gustaría programar una visita. Por
-        favor, hágame saber cuándo sería posible.
+        Yo acepto los terminos y condiciones de InAdvance
       </p>
     </div>
   </div>

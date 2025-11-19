@@ -22,6 +22,18 @@ const router = createRouter({
       name: 'departments',
       component: () => import('../views/DepartamentView.vue'),
     },
+
+    {
+      path: '/:option',
+      name: 'departmentsOptions',
+      component: () => import('../views/DepartamentView.vue'),
+    },
+
+    {
+      path: '/asesoramiento',
+      name: 'asesoramiento',
+      component: () => import('../views/AsesoramientoVue.vue'),
+    },
   ],
 })
 

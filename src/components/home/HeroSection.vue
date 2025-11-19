@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import mainImage from '@/assets/MainImage.jpg'
 import ButtonComponent from './ButtonComponent.vue'
+import InputSearchHome from './InputSearchHome.vue'
 </script>
 
 <template>
   <div
-    class="h-[80vh] bg-orange-500 rounded-2xl flex justify-center items-center text-slate-50 flex-col gap-10"
+    class="h-[75vh] bg-orange-500 rounded-2xl flex justify-center items-center text-slate-50 flex-col gap-10"
     :style="{
       backgroundImage: `url(${mainImage})`,
       backgroundRepeat: 'no-repeat',
@@ -13,7 +14,7 @@ import ButtonComponent from './ButtonComponent.vue'
       backgroundPositionY: '90%',
     }"
   >
-    <p class="text-5xl font-medium text-center">
+    <p class="text-6xl font-bold text-center">
       Descubre el lugar <br />
       de tus suenos
     </p>
@@ -22,6 +23,7 @@ import ButtonComponent from './ButtonComponent.vue'
         <ButtonComponent title="Alquilar" router="buy" />
         <ButtonComponent title="Comprar" router="rent" />
       </div>
+      <InputSearchHome width="w-[80vh]" background="bg-white" icon_size="w-7 h-7" padding="p-4" />
     </div>
   </div>
 </template>

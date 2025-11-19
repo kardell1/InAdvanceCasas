@@ -34,7 +34,7 @@
       <p>Santa cruz de la cierra - #456 Calle San javier</p>
       <p>Matrícula de Comercio N° 1522444</p>
       <p>InAdvance S.R.L. — Santa Cruz, Bolivia</p>
-      <p class="pt-10">Copyright © 2025 Trulia, LLC. All rights reserved.</p>
+      <p class="pt-10">Copyright © 2025 InAdvance, LLC. All rights reserved.</p>
     </div>
     <div
       class="h-[200px] w-full bg-red-700"

@@ -8,7 +8,7 @@ const { HeroFa } = useHeroFactory()
 </script>
 
 <template>
-  <main class="flex flex-col gap-20">
+  <main class="flex flex-col gap-15">
     <HeroSection />
     <component :is="HeroFa" v-if="HeroFa" />
     <FeaturesSection />
