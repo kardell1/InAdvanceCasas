@@ -34,7 +34,7 @@ const handleCloseModal = () => {
       </div>
 
       <div>
-        <button class="bg-red-600 w-full rounded-xl text-white font-semibold py-3">
+        <button class="bg-red-600 w-full rounded-xl text-white font-semibold py-3 cursor-pointer">
           Revisa su disponibilidad
         </button>
       </div>

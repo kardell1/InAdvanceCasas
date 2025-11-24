@@ -10,19 +10,23 @@ const handleCloseModal = () => {
 
 <template>
   <div
-    class="fade-in-once relative p-5 bg-white shadow-2xs w-[30%] rounded-sm max-h-[80%] overflow-y-scroll"
+    class="fade-in-once relative p-5 bg-white shadow-2xs w-[30%] rounded-sm max-h-[80%] overflow-y-scroll max-lg:w-[60%]"
   >
-    <h2 class="pb-5 text-center font-bold">Registrate o Inicia Sesion</h2>
-    <button
-      @click="handleCloseModal"
-      class="hover:bg-slate-300 rounded-full absolute top-0 right-0 px-2 py-1 m-5"
-    >
-      X
-    </button>
+    <div class="flex justify-between items-center pb-7 text-slate-700">
+      <h2 class="text-center font-semibold text-lg">Registrate o Inicia Sesion</h2>
+      <button @click="handleCloseModal" class="text-2xl font-semibold cursor-pointer">X</button>
+    </div>
     <div class="flex flex-col gap-5">
-      <InputsModal placeholder="Correo electronico" />
+      <div class="flex flex-col gap-2">
+        <p class="text-slate-600 text-[0.90rem]">Email</p>
+        <InputsModal placeholder="Correo electronico" />
+      </div>
       <div>
-        <button class="bg-blue-600 w-full rounded-xl text-white font-semibold py-3">Enviar</button>
+        <button
+          class="bg-blue-600 w-full rounded-xl text-white font-semibold py-3 cursor-pointer hover:bg-white hover:text-blue-600 hover:border-blue-600 border-2 transition-all duration-75 ease-in"
+        >
+          Enviar
+        </button>
       </div>
       <!-- redes sociales  -->
       <span class="flex items-center justify-center">
@@ -32,7 +36,7 @@ const handleCloseModal = () => {
       </span>
       <div>
         <button
-          class="bg-sky-700 w-full rounded-xl text-white font-semibold flex items-center justify-center gap-4 py-3"
+          class="bg-sky-700 w-full rounded-xl text-white font-semibold flex items-center justify-center gap-4 py-3 cursor-pointer hover:bg-sky-800"
         >
           <span class="w-6 h-6">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="currentColor">
@@ -47,7 +51,7 @@ const handleCloseModal = () => {
       </div>
       <div>
         <button
-          class="w-full rounded-xl text-slate-700 font-semibold py-3 border-2 border-slate-300 flex items-center justify-center gap-4"
+          class="w-full rounded-xl text-slate-700 font-semibold py-3 border-2 border-slate-300 flex items-center justify-center gap-4 cursor-pointer hover:bg-slate-100"
         >
           <span class="w-6 h-6">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="currentColor">
@@ -61,9 +65,12 @@ const handleCloseModal = () => {
         </button>
       </div>
 
-      <p class="text-[0.80rem] font-light text-slate-500">
-        Yo acepto los terminos y condiciones de InAdvance
-      </p>
+      <div class="text-[0.80rem] font-light text-slate-500 flex gap-1 text-nowrap">
+        <p>Yo acepto los</p>
+        <p class="cursor-pointer text-blue-700 underline">terminos de uso</p>
+        <p>y</p>
+        <p class="cursor-pointer text-blue-700 underline">condiciones de privacidad</p>
+      </div>
     </div>
   </div>
 </template>

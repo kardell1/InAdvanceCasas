@@ -143,13 +143,13 @@ const handleViewModal = () => {
           </RouterLink>
           <button
             @click="handleViewModal"
-            class="hover:bg-slate-200 border-2 text-nowrap border-slate-300 rounded-lg p-2"
+            class="hover:bg-slate-200 border-2 text-nowrap border-slate-300 rounded-lg p-2 cursor-pointer"
           >
             Registrate o Inicia sesion
           </button>
         </div>
         <!-- boton de menu -->
-        <button @click="handleMenu" class="text-slate-700 cursor-pointer">
+        <button @click="handleMenu" class="text-slate-700 cursor-pointer px-3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 640 512"
