@@ -1,0 +1,98 @@
+[
+  {
+    "direction": "Av. Argentina, Zona Sopocachi, La Paz",
+    "rooms": 4,
+    "bathrooms": 3,
+    "price": "650000 BOB",
+    "url_direction": "<iframe src=\"https://www.google.com/maps?q=-16.505,-68.121&z=15&output=embed\"></iframe>",
+    "url_image": "https://i.pinimg.com/736x/4d/6f/30/4d6f30928737185e8f733a2ecbfe2e37.jpg"
+  },
+  {
+    "direction": "Calle Ballivián, Barrio Cota Cota, La Paz",
+    "rooms": 5,
+    "bathrooms": 4,
+    "price": "950000 BOB",
+    "url_direction": "<iframe src=\"https://www.google.com/maps?q=-16.475,-68.101&z=15&output=embed\"></iframe>",
+    "url_image": "https://i.pinimg.com/1200x/04/2b/a5/042ba5149b50ba0588b8c6373d914bff.jpg"
+  },
+  {
+    "direction": "Av. Canon, Zona Equipetrol, Santa Cruz de la Sierra",
+    "rooms": 3,
+    "bathrooms": 2,
+    "price": "420000 BOB",
+    "url_direction": "<iframe src=\"https://www.google.com/maps?q=-17.783,-63.179&z=15&output=embed\"></iframe>",
+    "url_image": "https://i.pinimg.com/736x/4d/99/f9/4d99f92de6ba4cdac3eaac7b0aae13b4.jpg"
+  },
+  {
+    "direction": "Calle Junín, Centro Histórico, Sucre",
+    "rooms": 3,
+    "bathrooms": 2,
+    "price": "380000 BOB",
+    "url_direction": "<iframe src=\"https://www.google.com/maps?q=-19.033,-65.262&z=15&output=embed\"></iframe>",
+    "url_image": "https://i.pinimg.com/1200x/0f/20/e6/0f20e62288b425f229f2db1c94ae308a.jpg"
+  },
+  {
+    "direction": "Av. Blanco Galindo, Cercado, Cochabamba",
+    "rooms": 4,
+    "bathrooms": 3,
+    "price": "520000 BOB",
+    "url_direction": "<iframe src=\"https://www.google.com/maps?q=-17.397,-66.164&z=15&output=embed\"></iframe>",
+    "url_image": "https://i.pinimg.com/736x/ee/d6/4d/eed64da7d3b0e5dd50a07fd78e8cf5f3.jpg"
+  },
+  {
+    "direction": "Av. 6 de Agosto, Zona Centro, Oruro",
+    "rooms": 3,
+    "bathrooms": 2,
+    "price": "300000 BOB",
+    "url_direction": "<iframe src=\"https://www.google.com/maps?q=-17.980,-67.129&z=15&output=embed\"></iframe>",
+    "url_image": "https://i.pinimg.com/1200x/d9/58/04/d958045b806aad1ac59922522108fe7f.jpg"
+  },
+  {
+    "direction": "Av. Salvador Allende, Cercado, Tarija",
+    "rooms": 4,
+    "bathrooms": 3,
+    "price": "410000 BOB",
+    "url_direction": "<iframe src=\"https://www.google.com/maps?q=-21.536,-64.729&z=15&output=embed\"></iframe>",
+    "url_image": "https://i.pinimg.com/1200x/b0/24/68/b02468576c12bcb56a34f6b732ae16db.jpg"
+  },
+  {
+    "direction": "Av. 6 de Agosto, Zona Norte, Potosí",
+    "rooms": 2,
+    "bathrooms": 1,
+    "price": "210000 BOB",
+    "url_direction": "<iframe src=\"https://www.google.com/maps?q=-19.588,-65.753&z=15&output=embed\"></iframe>",
+    "url_image": "https://i.pinimg.com/736x/80/c2/4e/80c24e1b5f3c44f55ea0f39118191206.jpg"
+  },
+  {
+    "direction": "Av. Ballivián, Trinidad, Beni",
+    "rooms": 3,
+    "bathrooms": 2,
+    "price": "240000 BOB",
+    "url_direction": "<iframe src=\"https://www.google.com/maps?q=-14.833,-64.900&z=15&output=embed\"></iframe>",
+    "url_image": "https://i.pinimg.com/1200x/1e/dc/87/1edc874f50cde510356012d40cba1e34.jpg"
+  },
+  {
+    "direction": "Av. El Colegio, Cobija, Pando",
+    "rooms": 3,
+    "bathrooms": 2,
+    "price": "260000 BOB",
+    "url_direction": "<iframe src=\"https://www.google.com/maps?q=-11.028,-69.295&z=15&output=embed\"></iframe>",
+    "url_image": "https://www.pinterest.com/pin/314689092715935746/"
+  },
+  {
+    "direction": "Zona Centro, Riberalta, Beni",
+    "rooms": 2,
+    "bathrooms": 1,
+    "price": "180000 BOB",
+    "url_direction": "<iframe src=\"https://www.google.com/maps?q=-11.006,-66.079&z=15&output=embed\"></iframe>",
+    "url_image": "https://i.pinimg.com/736x/8e/f5/d1/8ef5d1c40952c88cad025129cfb703d0.jpg"
+  },
+  {
+    "direction": "Av. Arce, El Alto (sector Mirador), La Paz",
+    "rooms": 4,
+    "bathrooms": 3,
+    "price": "340000 BOB",
+    "url_direction": "<iframe src=\"https://www.google.com/maps?q=-16.509,-68.213&z=15&output=embed\"></iframe>",
+    "url_image": "https://i.pinimg.com/736x/04/b1/a0/04b1a0584c1288619c39abb6d6af9779.jpg"
+  }
+]
