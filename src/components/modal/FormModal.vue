@@ -28,9 +28,7 @@ const handleCloseModal = () => {
           name=""
           id=""
           class="w-full focus-within:outline-blue-600 focus-within:outline-4 transition-all duration-100 ease-in-out rounded-sm border border-slate-300"
-        >
- Mi text area  </textarea
-        >
+        ></textarea>
       </div>
 
       <div>
