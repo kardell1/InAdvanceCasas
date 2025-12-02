@@ -106,7 +106,7 @@ const handleViewModal = () => {
             />
           </div>
           <!-- opciones del header -->
-          <div :class="`flex items-center ${currentRoute ? '' : 'max-lg:hidden'}`">
+          <div :class="`flex items-center max-md:hidden ${currentRoute ? '' : 'max-lg:hidden'}`">
             <ColapseHeader
               title="Comprar"
               :subtitles="[
@@ -167,6 +167,7 @@ const handleViewModal = () => {
       <div
         :class="`fixed top-0 right-0 z-20 h-screen max-h-screen overflow-y-auto w-[400px] py-3 px-7 text-slate-50 ${menu ? 'translate-0 bg-slate-700 ' : ' translate-x-[100vh] '}`"
       >
+        <!-- boton de cerrar -->
         <div class="flex justify-end">
           <button
             @click="handleMenu"
@@ -176,7 +177,10 @@ const handleViewModal = () => {
           </button>
         </div>
         <ul class="flex flex-col gap-6 font-bold">
-          <button class="text-start relative cursor-pointer hover:text-blue-400">
+          <button
+            @click="handleViewModal"
+            class="text-start relative cursor-pointer hover:text-blue-400"
+          >
             Registrate o Inicia sesion
           </button>
           <button
@@ -201,7 +205,7 @@ const handleViewModal = () => {
         </ul>
       </div>
       <!-- opciones de filtrado -->
-      <div v-if="!currentRoute" class="flex gap-2 px-4 py-2">
+      <div v-if="!currentRoute" class="flex gap-2 px-4 py-2 flex-wrap">
         <ColapseItem
           title="Todos los precios"
           @focusin="handleViewOptions"

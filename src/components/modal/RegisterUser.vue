@@ -10,7 +10,7 @@ const handleCloseModal = () => {
 
 <template>
   <div
-    class="fade-in-once relative p-5 bg-white shadow-2xs w-[30%] rounded-sm max-h-[80%] overflow-y-scroll max-lg:w-[60%]"
+    class="fade-in-once relative p-5 bg-white shadow-2xs w-[30%] rounded-sm max-h-[80%] overflow-y-scroll max-lg:w-[60%] max-sm:w-[90%]"
   >
     <div class="flex justify-between items-center pb-7 text-slate-700">
       <h2 class="text-center font-semibold text-lg">Registrate o Inicia Sesion</h2>
@@ -65,7 +65,9 @@ const handleCloseModal = () => {
         </button>
       </div>
 
-      <div class="text-[0.80rem] font-light text-slate-500 flex gap-1 text-nowrap">
+      <div
+        class="text-[0.80rem] max-sm:text-[0.70rem] font-light text-slate-500 flex gap-1 text-nowrap"
+      >
         <p>Yo acepto los</p>
         <p class="cursor-pointer text-blue-700 underline">terminos de uso</p>
         <p>y</p>

@@ -6,7 +6,7 @@ import InputSearchHome from './InputSearchHome.vue'
 
 <template>
   <div
-    class="h-[75vh] bg-orange-500 rounded-2xl flex justify-center items-center text-slate-50 flex-col gap-10 bg-top bg-no-repeat max-lg:bg-size-[100%_100%] bg-cover"
+    class="h-[75vh] bg-orange-500 rounded-2xl flex justify-center items-center text-slate-50 flex-col gap-10 bg-top bg-no-repeat max-lg:bg-size-[100%_100%] bg-cover max-sm:bg-cover"
     :style="{
       backgroundImage: `url(https://i.pinimg.com/1200x/a6/2e/8c/a62e8c507e08efc469bb37d481adda4e.jpg)`,
     }"
@@ -20,7 +20,12 @@ import InputSearchHome from './InputSearchHome.vue'
         <ButtonComponent title="Alquilar" router="buy" />
         <ButtonComponent title="Comprar" router="rent" />
       </div>
-      <InputSearchHome width="w-[80vh]" background="bg-white" icon_size="w-7 h-7" padding="p-4" />
+      <InputSearchHome
+        width="w-[80vh]  max-sm:w-auto "
+        background="bg-white"
+        icon_size="w-7 h-7"
+        padding="p-4"
+      />
     </div>
   </div>
 </template>

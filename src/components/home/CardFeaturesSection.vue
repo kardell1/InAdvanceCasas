@@ -8,7 +8,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="w-[25%] flex flex-col gap-5">
+  <div class="w-[25%] max-md:w-auto flex flex-col gap-5">
     <div class="flex justify-center">
       <img
         src="https://i.pinimg.com/1200x/5b/fe/3d/5bfe3dd92ac7f99cfc08fb77b062acd0.jpg"

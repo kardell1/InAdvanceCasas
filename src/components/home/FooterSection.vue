@@ -1,8 +1,8 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="px-40 flex flex-col gap-10">
-    <div class="flex gap-20">
+  <div class="px-40 flex flex-col gap-10 flex-wrap max-md:px-5">
+    <div class="flex gap-20 flex-wrap max-md:gap-10">
       <ul class="flex gap-3 flex-col">
         <li class="font-semibold text-xl">Recursos</li>
         <li class="hover:underline">Nuevas ofertas</li>
@@ -37,12 +37,9 @@
       <p class="pt-10">Copyright © 2025 InAdvance, LLC. All rights reserved.</p>
     </div>
     <div
-      class="h-[200px] w-full bg-red-700"
+      class="h-[200px] w-full bg-red-700 bg-size-[40%_100%] max-sm:bg-cover bg-position-[bottom_40%] max-md:bg-size-[50%_100%]"
       :style="{
         backgroundImage: `url(https://i.pinimg.com/1200x/2a/10/70/2a1070f5458848f13aa350b2efb68385.jpg)`,
-        backgroundRepeat: 'repeat',
-        backgroundSize: '40% 100%',
-        backgroundPositionY: '40%',
       }"
     ></div>
   </div>

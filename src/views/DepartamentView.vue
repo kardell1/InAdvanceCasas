@@ -34,20 +34,16 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="flex w-full gap-2">
+  <div class="flex w-full gap-2 max-sm:flex-col-reverse">
     <!-- Sección de propiedades -->
-    <div class="basis-[55%] grid grid-cols-2 gap-2 w-full">
-      <div class="col-span-2 flex flex-col gap-3 py-3">
+    <div class="basis-[55%] grid grid-cols-2 gap-2 w-full max-md:grid-cols-1">
+      <div class="col-span-2 flex flex-col gap-3 py-3 max-md:col-span-1">
         <h1 class="text-xl font-bold">
           Departamentos para rentar en : {{ city }} {{ department }} {{ options }}
         </h1>
         <p class="font-light text-[0.90rem]">3341 resultados obtenidos</p>
       </div>
-      <div
-        v-for="(property, index) in departaments"
-        :key="index"
-        class="col-span-1 flex flex-col gap-2"
-      >
+      <div v-for="(property, index) in departaments" :key="index" class="flex flex-col gap-2">
         <div class="h-[300px] rounded-xl relative overflow-hidden">
           <!-- imagen del card -->
           <div

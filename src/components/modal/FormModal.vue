@@ -10,7 +10,7 @@ const handleCloseModal = () => {
 
 <template>
   <div
-    class="fade-in-once relative p-5 bg-white shadow-2xs w-[40%] rounded-sm max-h-[80%] overflow-y-scroll"
+    class="fade-in-once relative p-5 bg-white shadow-2xs w-[40%] rounded-sm max-h-[80%] overflow-y-scroll max-sm:w-[90%]"
   >
     <h2 class="pb-5 text-center font-bold">Contacto esta propiedad</h2>
     <button
